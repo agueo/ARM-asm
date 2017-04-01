@@ -8,7 +8,7 @@ R7 - used for system calls
 LR - Holds address of subroutine for when subroutine needs to be called
 PC - Program counter -- stores address of next instruction
 
-# CPSR - current program stack register
+## CPSR - current program stack register
 values change everytime you call an instructions
 ---------------------------------------------------------------------
 |	31	|	30	|	29	|	28	|	27-8	|	7-6	|	5	|	4-0	|

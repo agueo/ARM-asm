@@ -12,7 +12,7 @@ _loop:
 	B _read				@ branch to our read definition
 
 _continue_loop:
-	CMP R3, #9			@ Compares the value in R3 to 9 if less than, continue looping if greater than end
+	CMP R3, #100			@ Compares the value in R3 to 9 if less than, continue looping if greater than end
 	BLE _loop
 	BGT end
 

@@ -8,14 +8,14 @@
 #		as -o hello.o hello.s
 
 
-link: hello.o read.o logic.o angry.o loop.o
-	ld -o hello.t hello.o
+link: mult.o logic.o
+	ld _o mult.t read.t
 	ld -o read.t read.o
 	ld -o logic.t logic.o
 	ld -o loop.t loop.o
 
-assemble: hello.s read.s logic.s angry.s
-	as -o hello.o hello.s
+assemble: logic.s mult.s
+	as -o mult.o mult.s
 	as -o read.o read.s
 	as -o logic.o logic.s
 	as -o loop.o loop.s
